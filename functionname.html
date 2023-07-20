@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>This is a function that returns Hello and the name</p>
+        <p id="demo"></p>
+        <script>
+            const name = {
+                firstName: "Lily",
+                secondName: "Barrett",
+                fullName: function () {
+                    return this.firstName + " " + this.secondName;
+                }
+            }
+            document.getElementById("demo").innerHTML = "Hello" + " " + name.fullName();
+
+        </script>
+    </body>
+</html>
