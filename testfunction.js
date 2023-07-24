@@ -10,3 +10,4 @@ function testRandomNumber ()
 }
 
 testRandomNumber();
+//This is a function and test that I would use in my dice roll generator. Good practice, do some more:)
